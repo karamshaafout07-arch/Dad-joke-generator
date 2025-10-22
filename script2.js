@@ -1,5 +1,6 @@
-// driver karam
+// driver Karam
 // navigator Zadia, Ahm, Fiorella
+
 
 const jokeElement = document.getElementById("joke");
 const jokeBtn = document.getElementById("jokeBtn");
@@ -15,6 +16,7 @@ function generateJoke () {
         },
 
     };
+    
 
     fetch ("https://icanhazdadjoke.com/",config)
     .then (res => res.json())
