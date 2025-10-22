@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.body {
+    font-family: roboto, 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 300;
+
+
+}
+.container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(216, 210, 32);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+    box-shadow: o 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+ 
+}
+h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+    color: #f40101;
+
+}
+.joke {
+    font-size: x-large;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.btn {
+    background-color: #efd3d7;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px 10px 10px 0px;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+}
+.btn:active {
+    transform: scale();
+}
+.btn:focus {
+    outline: 0;
+
+}
+.btn:hover {
+    background-color: #545755;
+}
+
